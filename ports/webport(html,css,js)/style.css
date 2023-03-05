@@ -1,0 +1,14 @@
+@keyframes slide {
+    0% {
+        background-position:0px 0px;
+    }
+    100% {
+        background-position:-2023px 0px;
+    }
+}
+
+body {
+    background: url("France.png") 1000% 1000% repeat;
+    image-rendering: optimizeQuality;
+    animation:slide 10s linear infinite; 
+}
